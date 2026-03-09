@@ -1,0 +1,109 @@
+/* Color Palette
+# - color 1
+# - color 2
+# - color 3
+# - color 4
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 25px;
+  overflow: hidden;
+}
+.column-narrow {
+  width: 30%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+.column-wide {
+  width: 70%;
+  float: left;
+  min-height: 225px;
+}
+
+/*NAVIGATION */
+nav {
+  background: rgb(255, 255, 255);
+  margin-bottom: 5px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.nav_bar {
+  text-align: center;
+}
+.nav_bar a {
+  padding: 10px;
+  display: inline-block;
+  background: lightblue;
+}
+/* Header body Footer 
+------------------------------------*/
+header {
+  padding-top: 30px;
+}
+footer {
+  text-align: center;
+  background-color: #d4a3eb;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+body {
+  background: #bf70ff;
+  margin: 0;
+}
+
+/* Work Experience
+------------------------------------*/
+.work_exp {
+  background-color: #ffb5d6;
+}
+
+/* Education
+------------------------------------*/
+.edu {
+  background-color: #ffb5d6;
+}
+/*h1,h2,h3 p*/
+h1 {
+  font-size: 50px;
+  margin: 0;
+}
+h2 {
+  font-size: 30px;
+  margin: 0;
+}
+h3 {
+  font-size: 25px;
+}
+p {
+  font-size: 20px;
+}
+/*images */
+.profile-img {
+  border-radius: 50%;
+}
+.image-bg {
+  width: 100%;
+
+  /* sets gradient and image */
+  background:
+    linear-gradient(rgba(105, 21, 232, 0.5), rgba(212, 143, 252, 0.999)),
+    url("/images/wingstop.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
