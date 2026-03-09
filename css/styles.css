@@ -103,7 +103,7 @@ p {
   /* sets gradient and image */
   background:
     linear-gradient(rgba(105, 21, 232, 0.5), rgba(212, 143, 252, 0.999)),
-    url("/images/wingstop.jpeg") no-repeat;
+    url("images/wingstop.jpeg") no-repeat;
   background-size: cover;
   background-position: center;
 }
